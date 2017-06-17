@@ -1,1 +1,13 @@
-<pre>{{days | json}}</pre>
+<div *ngFor = "let day of days" class="col-sm-3">
+    <div class="thumbnail">
+        <h1>
+            {{day.dayName}}
+        </h1>
+        
+        <h3>
+            <app-meal></app-meal>
+        </h3>
+        
+    </div>
+    
+</div>

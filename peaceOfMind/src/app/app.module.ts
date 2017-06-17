@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { WeekDayComponent } from './week-day/week-day.component';
+import { MealComponent } from './meal/meal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeekDayComponent
+    WeekDayComponent,
+    MealComponent
   ],
   imports: [
     BrowserModule
